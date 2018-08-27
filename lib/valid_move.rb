@@ -2,6 +2,8 @@
 def valid_move?(board, position)
 	if board[position] = " "
     true
+  else
+    false
  	end
  end
 
